@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" name="Failed suite [Suite]" parallel="methods">
+  <test name="ParallelEecution(failed)" parallel="methods">
+    <classes>
+      <class name="OR.ParallelEecution">
+        <methods>
+          <include name="executeSessionThree"/>
+        </methods>
+      </class> <!-- OR.ParallelEecution -->
+    </classes>
+  </test> <!-- ParallelEecution(failed) -->
+</suite> <!-- Failed suite [Suite] -->
